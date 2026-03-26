@@ -1,0 +1,29 @@
+{
+  "name": "Control Clínico EPOC",
+  "short_name": "CCQ EPOC",
+  "description": "Cuestionario de Control Clínico en EPOC — GesEPOC 2025",
+  "start_url": "./ccq-epoc.html",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#1a5276",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

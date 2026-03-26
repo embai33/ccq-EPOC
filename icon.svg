@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a5276"/>
+      <stop offset="100%" stop-color="#2980b9"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- Lungs stylized -->
+  <!-- Left lung -->
+  <path d="M200 170 C200 170 160 190 140 240 C120 290 115 340 130 370 C145 400 175 410 200 400 C225 390 230 360 230 340 L230 200 Z"
+        fill="rgba(255,255,255,0.9)" stroke="none"/>
+  <!-- Right lung -->
+  <path d="M312 170 C312 170 352 190 372 240 C392 290 397 340 382 370 C367 400 337 410 312 400 C287 390 282 360 282 340 L282 200 Z"
+        fill="rgba(255,255,255,0.9)" stroke="none"/>
+  <!-- Trachea -->
+  <rect x="240" y="130" width="32" height="80" rx="6" fill="rgba(255,255,255,0.9)"/>
+  <!-- Bronchi left -->
+  <path d="M248 200 C248 200 240 210 225 215" stroke="rgba(255,255,255,0.9)" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Bronchi right -->
+  <path d="M264 200 C264 200 272 210 287 215" stroke="rgba(255,255,255,0.9)" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Checkmark circle -->
+  <circle cx="380" cy="380" r="56" fill="#27ae60"/>
+  <path d="M355 380 L373 398 L407 360" stroke="white" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Text -->
+  <text x="256" y="468" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="rgba(255,255,255,0.85)" letter-spacing="4">CCQ</text>
+</svg>
